@@ -11,7 +11,7 @@ export function repoSearch(value) {
         .then((data) => {
             dispatch({
                 type: REPO_SEARCH,
-                payload: data.items,
+                payload: data,
             });
             dispatch({
                 type: ACTIVE_BUTTON,

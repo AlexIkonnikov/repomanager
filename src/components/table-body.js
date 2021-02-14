@@ -22,7 +22,7 @@ class TableBody extends React.Component {
 
 const mapStateToProps = (state) => {
     return {
-        repo: state.search.repo,
+        repo: state.search.repo.items,
     }
 };
 

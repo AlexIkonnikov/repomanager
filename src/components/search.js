@@ -26,7 +26,7 @@ const mapStateToProps = (state) => {
     return {isDisabled: state.button.isDisabled};
 };
 
-const mapDispatchToProps = dispatch => {
+const mapDispatchToProps = (dispatch) => {
     return {
         repoSearch: (repo) => {
             dispatch(repoSearch(repo));

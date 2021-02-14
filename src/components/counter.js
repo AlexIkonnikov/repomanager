@@ -2,11 +2,12 @@ import React from 'react';
 import { connect } from 'react-redux';
 
 class Counter extends React.Component {
+
     render() {
-        console.log(this.props)
+        const total = this.props.repo.total_count;
         return(
             <div>
-                <p>Количество результатов: {this.props.repo.length}</p>
+                <p>Количество результатов: {total ? total : 0}</p>
             </div>
         );
     }
