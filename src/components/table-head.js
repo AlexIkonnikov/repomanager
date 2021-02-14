@@ -5,6 +5,7 @@ class TableHead extends React.Component {
         return(
             <thead>
                 <tr>
+                    <th>#</th>
                     <th>Repo name</th>
                     <th>Description</th>
                     <th>Adress</th>

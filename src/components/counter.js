@@ -7,7 +7,7 @@ class Counter extends React.Component {
         const total = this.props.repo.total_count;
         return(
             <div>
-                <p>Количество результатов: {total ? total : 0}</p>
+                <p>РЕЗУЛЬТАТ: {total ? total : 0}</p>
             </div>
         );
     }
