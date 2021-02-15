@@ -14,7 +14,7 @@ class Content extends React.Component {
         } else {
             return(
                 <div className="table-responsive">
-                    <table className="table table-bordered table-dark">
+                    <table className="table table-sm table-bordered table-dark">
                         <TableHead/>
                         <TableBody/>
                     </table>

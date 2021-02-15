@@ -8,7 +8,6 @@ class TableRow extends React.Component {
     render() {
         return(
             <tr>
-                <td>{this.repo.owner.login}</td>
                 <td>{this.repo.name}</td>
                 <td>{this.repo.description}</td>
                 <td><a href={this.repo.html_url} target="_blank">{this.repo.html_url}</a></td>

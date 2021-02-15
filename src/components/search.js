@@ -12,9 +12,14 @@ class Search extends React.Component {
         this.query = value;
     }
 
+    onSubmitHandler(evt) {
+        evt.preventDefault();
+        this.props.repoSearch(this.query)
+    }
+
     render() {
         return(
-            <Form onSubmit={() => this.props.repoSearch(this.query)} inline>
+            <Form onSubmit={(evt) => this.onSubmitHandler(evt)} inline>
                 <FormControl onChange={(evt) => {this.changeQuery(evt.target.value)}} type="text" placeholder="Repo search" className="mr-sm-2"/>
                 <button className="btn btn-dark" disabled={this.props.isDisabled}  type="submit">Search</button>
             </Form>
