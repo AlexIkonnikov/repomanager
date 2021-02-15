@@ -12,6 +12,7 @@ class Search extends React.Component {
         this.query = value;
     }
 
+
     onSubmitHandler(evt) {
         evt.preventDefault();
         this.props.repoSearch(this.query)

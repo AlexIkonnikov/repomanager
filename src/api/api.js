@@ -24,5 +24,3 @@ async function getNextPage(number) {
 }
 
 export {getResponse, getNextPage, PER_PAGE};
-
-
