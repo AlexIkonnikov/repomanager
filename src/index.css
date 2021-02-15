@@ -11,3 +11,10 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+<<<<<<< HEAD
+=======
+
+img:hover {
+  opacity: 0.4;
+}
+>>>>>>> ee20d556fec47173bf49c4db43a59492dc8897f4

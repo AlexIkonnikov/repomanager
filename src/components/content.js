@@ -14,7 +14,11 @@ class Content extends React.Component {
         } else {
             return(
                 <div className="table-responsive">
+<<<<<<< HEAD
                     <table className="table table-bordered table-dark">
+=======
+                    <table className="table table-sm table-bordered table-dark">
+>>>>>>> ee20d556fec47173bf49c4db43a59492dc8897f4
                         <TableHead/>
                         <TableBody/>
                     </table>
